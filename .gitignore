@@ -1,0 +1,77 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+Icon?
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Sass / build caches
+.sass-cache/
+.cache/
+
+# Compiled source maps (optional)
+*.map
+css/*.map
+
+# Logs
+*.log
+logs/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.user
+*.userosscache
+*.sublime-workspace
+*.sublime-project
+
+# Python virtualenvs
+venv/
+.venv/
+ENV/
+env/
+
+# Certificates / keys
+*.pem
+*.key
+
+# Archives and backups
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*~ 
+
+# Temp
+tmp/
+temp/
+.cache/
+
+# OS thumbnails / metadata
+ehthumbs.db
+
+# Mac specific
+.AppleDouble
+.LSOverride
+
+# Ignore IDE/system specific files often generated
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
